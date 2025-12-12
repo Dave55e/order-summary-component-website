@@ -1,0 +1,116 @@
+@import url(https://fonts.google.com/specimen/Red+Hat+Display);
+
+:root {
+  --main-font: "https://fonts.google.com/specimen/Red+Hat+Display";
+  --dark-cyan: hsl(185, 75%, 39%);
+  --dark-grey: hsl(0, 0%, 59%);
+  --font-size: 18px;
+  --dark-blue: hsl(229, 23%, 23%);
+  --very-pale-blue: hsl(225, 100%, 98%);
+  --Dark-blue: hsl(223, 47%, 23%);
+  --Bright-blue: hsl(245, 75%, 52%);
+  --Pale-blue: hsl(225, 100%, 94%);
+}
+
+body
+{
+ background-image: url(./images/pattern-background-desktop.svg);
+ background-repeat: no-repeat;
+ margin-left: 500px;
+ font-family: var(--main-font);
+
+}
+
+body {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: var(--main-font);
+    }
+p
+{
+text-align: center;
+font-family: var(--main-font);
+}
+    
+.main-container
+{
+width: 80%;
+max-width: 349px;
+margin: 0 auto;
+margin-top: 146px;
+margin-bottom: 50px;
+margin-left: 500px;
+}
+    
+    
+.nft-container{
+    background-image: url(./images/Screenshot\ 2022-09-01\ 115734.png);
+    background-size: auto;
+    padding: 24px;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    background-color: white;
+    position: center;
+    width: 450px;
+    height: 600px;
+  }
+  .main-image{
+    
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 300px;
+    height: 300px;
+    min-height: 300px;
+  }
+  .container-title {
+    padding-top: 0.5rem;
+  }
+  
+  .container-title h1 {
+    color: black;
+    font-size: 22.4px;
+    font-weight: 400;
+    font-weight: bold;
+    text-align: center;
+  }
+  .author {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+    gap: 15px;
+    background-color: var(--very-pale-blue);
+    height: fit-content;
+    text-align: center;
+    border-radius: 5px;
+  }
+  
+  .form-group {
+    margin: 0 auto 1.25rem auto;
+    padding: 0.25rem;
+  }
+  .submit-button {
+    display: block;
+    width: 100%;
+    padding: 0.75rem;
+    background-color: var(--Bright-blue);
+    color: inherit;
+    border-radius: 10px;
+    cursor: pointer;
+  }
+  .submit-button2
+  {
+background-color: var(--very-pale-blue);
+color: inherit;
+    border-radius: 10px;
+    cursor: pointer;
+    display: block;
+    width: 100%;
+    padding: 0.75rem;
+  }
+  a
+  {
+color: var(--Bright-blue)
+  }
